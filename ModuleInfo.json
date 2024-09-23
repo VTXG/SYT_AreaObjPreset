@@ -1,0 +1,26 @@
+{
+    "Name": "SYT_ModuleName",
+    "Author": "SYT_ModuleDesc",
+    "Description": "SYT_ModuleAuthor",
+    "InstallDependencies": ["Syati_ObjectFactories", "ExtAreaObjMgr"],
+    "ModuleData" : [
+      {
+        "NameObjFactory" : [
+          {
+            "Name" : "SYT_ClassName",
+            "Function" : "createExtActor<SYT_ClassName>",
+            "Include" : "SYT_ClassName.h"
+          }
+        ]
+      },
+      {
+        "AreaObjMgr" : [
+          {
+            "Name" : "SYT_ClassName",
+            "MaxCount" : "64",
+            "Function" : "AreaObjContainer::createManager<AreaObjMgr>"
+          }
+        ]
+      }
+    ]
+  }
