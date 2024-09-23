@@ -1,7 +1,7 @@
 {
     "Name": "SYT_ModuleName",
-    "Author": "SYT_ModuleDesc",
-    "Description": "SYT_ModuleAuthor",
+    "Author": "SYT_ModuleAuthor",
+    "Description": "SYT_ModuleDesc",
     "InstallDependencies": ["Syati_ObjectFactories", "ExtAreaObjMgr"],
     "ModuleData" : [
       {
